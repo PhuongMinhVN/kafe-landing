@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#c2652a" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#151a26" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0b0e14" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glassShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="22%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="82%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="cupDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b3344"/>
+      <stop offset="100%" stop-color="#141821"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="200" cy="248" rx="95" ry="18" fill="url(#floor)"/>
+  
+    
+    <g fill="none" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round">
+      <path d="M178 96 Q170 76 182 58"/>
+      <path d="M200 90 Q192 68 204 48"/>
+      <path d="M222 96 Q214 76 226 58"/>
+    </g>
+    <ellipse cx="200" cy="238" rx="92" ry="16" fill="#1e2432" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <ellipse cx="200" cy="236" rx="58" ry="9" fill="#11151f"/>
+    <path d="M254 142 C288 142 288 194 250 196" fill="none" stroke="#2b3344" stroke-width="13" stroke-linecap="round"/>
+    <path d="M254 142 C288 142 288 194 250 196" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M138 126 L262 126 L252 214 Q248 236 200 236 Q152 236 148 214 Z" fill="url(#cupDark)" stroke="rgba(255,255,255,0.14)" stroke-width="1.8"/>
+    <ellipse cx="200" cy="126" rx="62" ry="14" fill="#232a3a" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"/>
+    <ellipse cx="200" cy="127" rx="54" ry="10.5" fill="#f5ebe0"/>
+    
+    <ellipse cx="200" cy="123" rx="50" ry="11" fill="#fffaf3"/>
+    <g fill="#7c3f18" opacity="0.65">
+      <circle cx="184" cy="121" r="2"/><circle cx="195" cy="118" r="2.2"/><circle cx="206" cy="123" r="2.4"/>
+      <circle cx="215" cy="119" r="1.8"/><circle cx="198" cy="126" r="1.7"/><circle cx="176" cy="124" r="1.5"/>
+    </g>
+  
+</svg>

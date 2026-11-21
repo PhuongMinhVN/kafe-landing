@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#a1a1aa" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#151a26" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0b0e14" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glassShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="22%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="82%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="cupDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b3344"/>
+      <stop offset="100%" stop-color="#141821"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="200" cy="248" rx="95" ry="18" fill="url(#floor)"/>
+  
+    <defs>
+      <clipPath id="gClip">
+        <path d="M144 76 L256 76 L242 238 Q240 248 230 248 L170 248 Q160 248 158 238 Z"/>
+      </clipPath>
+    </defs>
+    
+    <path d="M150 86 Q160 54 200 44 Q240 54 250 86 Z" fill="#fafafa"/>
+    <circle cx="226" cy="60" r="18" fill="#18181b" stroke="#52525b" stroke-width="2"/>
+    <circle cx="226" cy="60" r="10" fill="none" stroke="#3f3f46" stroke-width="1.5" stroke-dasharray="3 3"/>
+  
+    <g clip-path="url(#gClip)">
+      
+    <rect x="140" y="102" width="120" height="150" fill="#d6d3d1"/>
+    <g fill="#27272a" opacity="0.75">
+      <circle cx="170" cy="134" r="4"/><circle cx="218" cy="156" r="5"/><circle cx="188" cy="186" r="4.5"/>
+      <circle cx="226" cy="204" r="4"/><circle cx="174" cy="222" r="5"/><circle cx="204" cy="144" r="3.5"/>
+      <circle cx="202" cy="218" r="4"/>
+    </g>
+  
+    </g>
+    <path d="M144 76 L256 76 L242 238 Q240 248 230 248 L170 248 Q160 248 158 238 Z" fill="url(#glassShine)" stroke="rgba(255,255,255,0.22)" stroke-width="2"/>
+    <ellipse cx="200" cy="76" rx="56" ry="8" fill="none" stroke="rgba(255,255,255,0.32)" stroke-width="1.6"/>
+    <path d="M156 92 L166 232" stroke="#ffffff" stroke-opacity="0.26" stroke-width="4" stroke-linecap="round"/>
+</svg>

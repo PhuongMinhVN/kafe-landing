@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#151a26" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0b0e14" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glassShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="22%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="82%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="cupDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b3344"/>
+      <stop offset="100%" stop-color="#141821"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="200" cy="248" rx="95" ry="18" fill="url(#floor)"/>
+  
+    <defs>
+      <clipPath id="rocksClip">
+        <path d="M138 112 L262 112 L254 238 Q252 248 240 248 L160 248 Q148 248 146 238 Z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#rocksClip)">
+      <rect x="136" y="130" width="128" height="122" fill="#3b160a"/>
+      <rect x="136" y="130" width="128" height="32" fill="#7c2d12" opacity="0.7"/>
+      <rect x="166" y="146" width="68" height="68" rx="10" fill="#e0f2fe" fill-opacity="0.22" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.6" transform="rotate(-6 200 180)"/>
+    </g>
+    <path d="M214 116 Q246 92 256 124" fill="none" stroke="#fb923c" stroke-width="9" stroke-linecap="round"/>
+    <path d="M138 112 L262 112 L254 238 Q252 248 240 248 L160 248 Q148 248 146 238 Z" fill="url(#glassShine)" stroke="rgba(255,255,255,0.24)" stroke-width="2"/>
+    <ellipse cx="200" cy="112" rx="62" ry="9" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.6"/>
+  
+</svg>
