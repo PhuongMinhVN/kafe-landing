@@ -87,6 +87,7 @@
 
         <nav class="hidden items-center gap-6 text-xs font-medium text-zinc-400 md:flex">
           <a href="#tinh-nang" class="transition hover:text-white">Tính năng</a>
+          <a href="#cai-dat" class="transition hover:text-white">Cài đặt</a>
           <a href="#phim-tat" class="transition hover:text-white">Phím tắt POS</a>
           <a href="#bang-gia" class="transition hover:text-white">Bảng giá</a>
           <a href="#hoi-dap" class="transition hover:text-white">Hỏi đáp</a>
@@ -316,6 +317,72 @@
             <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500/15 text-lg text-amber-400">⚡</span>
             <h3 class="mt-4 text-base font-bold text-zinc-100">Tự động hóa điện năng IoT (Bản Pro)</h3>
             <p class="mt-2 text-xs leading-relaxed text-zinc-400">Kết hợp cảm biến hiện diện &amp; rơ-le thông minh: khách rời bàn tự ngắt điều hòa/đèn khu vực, giúp quán tiết kiệm 25–30% tiền điện mỗi tháng.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- INSTALL GUIDE -->
+      <section id="cai-dat" class="border-t border-white/[0.06] bg-[#0B0E14] py-16">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+          <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.18em] text-amber-400">
+                Cài đặt 1-Click · Không cần kỹ thuật
+              </p>
+              <h2 class="mt-1.5 text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+                Hướng dẫn tải &amp; cài đặt trong 30 giây
+              </h2>
+            </div>
+            <a
+              href="https://github.com/PhuongMinhVN/kafe-landing/raw/downloads/PMVN-Cafe-Portable-v2.0.zip"
+              download="PMVN-Cafe-Portable-v2.0.zip"
+              class="inline-flex min-h-[42px] items-center justify-center gap-2 rounded-xl bg-amber-500 px-4 text-xs font-bold text-zinc-950 shadow-glowAmber transition hover:bg-amber-400"
+            >
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Tải PMVN-Cafe-Portable-v2.0.zip (60 MB)
+            </a>
+          </div>
+
+          <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div class="relative rounded-2xl border border-white/[0.08] bg-[#131720] p-5">
+              <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500 font-mono text-xs font-black text-zinc-950">01</span>
+              <h3 class="mt-3.5 text-sm font-bold text-white">Tải file Portable (.zip)</h3>
+              <p class="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                Bấm nút <strong class="text-zinc-200">Tải Bản Portable (v2.0)</strong> dung lượng gọn nhẹ 60 MB. Chạy tốt trên mọi máy tính Windows 10/11 64-bit, không cần cài Node.js hay SQL.
+              </p>
+            </div>
+            <div class="relative rounded-2xl border border-white/[0.08] bg-[#131720] p-5">
+              <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500 font-mono text-xs font-black text-zinc-950">02</span>
+              <h3 class="mt-3.5 text-sm font-bold text-white">Giải nén ra ổ D:\ hoặc E:\</h3>
+              <p class="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                Chuột phải vào file <code class="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px] text-amber-300">.zip</code> → chọn <strong class="text-zinc-200">Extract All</strong>. Giữ nguyên thư mục <code class="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px] text-zinc-200">_core</code> cùng cấp với <code class="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px] text-amber-300">RunCafe.exe</code>.
+              </p>
+            </div>
+            <div class="relative rounded-2xl border border-white/[0.08] bg-[#131720] p-5">
+              <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500 font-mono text-xs font-black text-zinc-950">03</span>
+              <h3 class="mt-3.5 text-sm font-bold text-white">Bấm đúp RunCafe.exe</h3>
+              <p class="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                Lần đầu bấm <strong class="text-zinc-200">Yes</strong> nếu Windows hỏi mở cổng LAN 3001 (chỉ hỏi 1 lần duy nhất). Phần mềm tự tạo shortcut Desktop và mở thẳng màn POS.
+              </p>
+            </div>
+            <div class="relative rounded-2xl border border-white/[0.08] bg-[#131720] p-5">
+              <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-500 font-mono text-xs font-black text-zinc-950">04</span>
+              <h3 class="mt-3.5 text-sm font-bold text-white">Đăng nhập &amp; kết nối Wi-Fi</h3>
+              <p class="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                Đăng nhập mặc định <code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[10px] text-emerald-300">admin / pmvn1234</code> (hoặc <code class="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px] text-zinc-200">phucvu / pmvn1234</code> trên điện thoại qua link LAN hiện trên màn hình).
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-5 grid gap-3 rounded-2xl border border-amber-500/25 bg-amber-500/[0.06] p-4 text-xs text-zinc-300 sm:grid-cols-2">
+            <div>
+              <p class="font-bold text-amber-300">⚠ Nếu Windows hiện cảnh báo SmartScreen ("Windows protected your PC"):</p>
+              <p class="mt-1 text-zinc-400">Bấm <strong class="text-zinc-200">More info</strong> → chọn <strong class="text-zinc-200">Run anyway</strong> ở lần chạy đầu tiên (do file Portable chạy trực tiếp không qua Windows Store).</p>
+            </div>
+            <div>
+              <p class="font-bold text-emerald-300">💾 Sao lưu &amp; đổi máy trong 1 giây:</p>
+              <p class="mt-1 text-zinc-400">Toàn bộ dữ liệu quán nằm gọn trong 1 file duy nhất <code class="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px] text-zinc-200">Data\cafe.db</code>. Cần hỗ trợ cài UltraViewer miễn phí, gọi/Zalo <strong class="text-white">0941 204 125</strong>.</p>
+            </div>
           </div>
         </div>
       </section>
